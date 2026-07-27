@@ -17,4 +17,4 @@ Its online at "https://vojtechhojda.netlify.app/"
 -HTML5
 -CSS
 
-i don't know what i text herec anymore
+I don't know what to write here anymore.
