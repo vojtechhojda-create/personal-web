@@ -2,11 +2,13 @@
 
 this is my personal web i make for the chalange on stardance.space/
 
-this web have three "sections" :
+this web have four "pages" :
 
--main(something about me)
+-main
 -projects
 -contact
+<br>
+-about me
 
 # how to open
 
