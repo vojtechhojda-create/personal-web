@@ -3,9 +3,12 @@ body {
   height: 100vh;
   display: flex;
 }
+.enter-btn{
+transition: transform 0.5s ease,
+}
 
 .enter-btn:hover {
-  transform: rotate(5deg);
+  transform: rotate(15deg);
 }
 
 .container {
