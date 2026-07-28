@@ -4,13 +4,8 @@ body {
   display: flex;
 }
 
-.enter-btn{
-  border: 2px dotted black;
-}
-
 .enter-btn:hover {
-  background-color: red;
-  transition: 1s ease;
+  transition: 0.5s ease;
   transform: rotate(5deg);
 }
 
