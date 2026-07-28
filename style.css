@@ -4,7 +4,11 @@ body {
   display: flex;
 }
 
-
+button:hover {
+  background-color: red;
+  transition: 1s ease;
+  transform: rotate(5deg);
+}
 
 
 .container {
