@@ -6,12 +6,11 @@ body {
 
 .enter-btn:hover {
   transition: 0.5s ease;
-  transform: rotate(5deg);
+  transform: rotate(5deg)
 }
 
-
 .container {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Jersey 10 Charted', monospace;
     font-size: 65px;
     font-weight: 700;
     width: 100%;
