@@ -4,7 +4,7 @@ body {
   display: flex;
 }
 
-enter-btn:hover {
+.enter-btn:hover {
   background-color: red;
   transition: 1s ease;
   transform: rotate(5deg);
