@@ -7,8 +7,12 @@ body {
 transition: transform 0.5s ease,
 }
 
+.enter-btn:active {
+  transform: rotate(7deg);
+}
+
 .enter-btn:hover {
-  transform: rotate(15deg);
+  transform: rotate(7deg);
 }
 
 .container {
