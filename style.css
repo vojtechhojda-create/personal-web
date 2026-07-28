@@ -1,39 +1,58 @@
 body {
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
-}
-.enter-btn{
-transition: transform 0.5s ease,
-}
-
-.enter-btn:active {
-  transform: rotate(7deg);
-}
-
-.enter-btn:hover {
-  transform: rotate(7deg);
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    font-family: 'Inconsolata', monospace;
-    font-size: 65px;
-    font-weight: 700;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    border-radius: 20px;
-    background: linear-gradient(90deg, #ff007f, #7928ca);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
-    display: inline-block;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
 }
 
+h1 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 65px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #000000, #0b192c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-block;
+  margin-bottom: 10px;
+}
 
+.text {
+  color: #000000;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.enter-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  border-radius: 8px;
+  margin: 10px 0;
+  transition: transform 0.5s ease;
+}
+
+.enter-btn:hover,
+.enter-btn:active {
+  transform: rotate(7deg);
+}
+``` ⚡
 .text {
     color: #000000;
     font-family: 'Inconsolata', monospace;
