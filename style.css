@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 40px 0 20px 0;
+  padding: 40px 15px 20px 15px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -8,74 +8,54 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 20px;
   text-align: center;
 }
 
 h1 {
   font-family: 'Inconsolata', monospace;
-  font-size: 65px;
+  font-size: 52px;
   font-weight: 700;
-  background: linear-gradient(90deg, #000000, #0b192c);
+  
+  /* Gradient shora dolů (černá -> modrá) */
+  background: linear-gradient(180deg, #000000 0%, #0b192c 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+  
   display: inline-block;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .text {
   color: #000000;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  line-height: 1.4;
 }
 
 .enter-btn {
   display: inline-block;
-  padding: 12px 24px;
+  width: 180px; /* Sjednocená pevná šířka tlačítek */
+  padding: 12px 0;
   background-color: #007bff;
   color: #ffffff;
   text-decoration: none;
   font-family: 'Inconsolata', monospace;
   font-weight: 700;
+  font-size: 16px;
   border-radius: 8px;
-  margin: 10px 0;
-  transition: transform 0.5s ease;
+  margin: 8px 0;
+  text-align: center;
+  transition: transform 0.3s ease;
 }
 
 .enter-btn:hover,
 .enter-btn:active {
   transform: rotate(7deg);
-}
-
-.enter-btn {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #007bff;
-  color: #ffffff;
-  text-decoration: none;
-  font-family: 'Inconsolata', monospace;
-  font-weight: 700;
-  border-radius: 8px;
-  margin: 10px 0;
-  transition: transform 0.5s ease;
-}
-
-.enter-btn:hover,
-.enter-btn:active {
-  transform: rotate(7deg);
-}
-``` ⚡
-.text {
-    color: #000000;
-    font-family: 'Inconsolata', monospace;
-    font-size: 20px;
-    font-weight: 700;
-
 }
