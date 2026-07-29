@@ -22,3 +22,6 @@ Visit the website online at: [vojtechhojda-create.github.io/personal-web](https:
 * **CSS3** – Styling & Layout
 
 ---
+
+## ai work
+i made code and ai helps me to learn and yt videos help me learn too
