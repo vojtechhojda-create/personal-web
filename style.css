@@ -28,6 +28,10 @@ h1 {
   text-align: center;
 }
 
+h1::marker {
+  font-size: 0.4em;
+}
+
 .text {
   color: #000000;
   font-family: 'Inconsolata', monospace;
