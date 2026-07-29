@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'bitcount-grid-double', monospace;
   font-size: 72px;
   font-weight: 700;
   background: linear-gradient(180deg, #000000 0%, #0b192c 100%);
@@ -36,7 +36,7 @@ h1 {
   line-height: 1.4;
 }
 
-/* Obal pro tlačítka - na mobilu pod sebou */
+
 .buttons-wrapper {
   display: flex;
   flex-direction: column;
@@ -67,7 +67,7 @@ h1 {
   transform: rotate(7deg);
 }
 
-/* PC a tablety (od šířky 768px) - tlačítka vedle sebe */
+
 @media (min-width: 768px) {
   h1 {
     font-size: 90px;
