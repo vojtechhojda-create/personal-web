@@ -1,6 +1,6 @@
 # personal web
 
-*this is my personal web i make for the chalange on stardance.space/*
+**this is my personal web i make for the chalange on stardance.space/**
 
 this web have four pages :
 <br>
@@ -14,7 +14,7 @@ this web have four pages :
 
 ## how to open
 
-Its online at *https://vojtechhojda-create.github.io/personal-web/*
+Its online at **https://vojtechhojda-create.github.io/personal-web/**
 
 ## built With
 
