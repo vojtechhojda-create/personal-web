@@ -8,6 +8,31 @@ body {
   background-color: #ffffff;
 }
 
+
+.inconsolata-<uniquifier> {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.bitcount-grid-double-<uniquifier> {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+
+
 * {
   font-family: 'Inconsolata', monospace;
 }
