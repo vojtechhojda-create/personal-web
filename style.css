@@ -8,37 +8,8 @@ body {
   background-color: #ffffff;
 }
 
-
-.inconsolata-<uniquifier> {
-  font-family: "Inconsolata", monospace;
-  font-optical-sizing: auto;
-  font-weight: <500>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-
-.bitcount-grid-double-<uniquifier> {
-  font-family: "Bitcount Grid Double", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0;
-}
-
-
-
 * {
   font-family: 'Inconsolata', monospace;
-}
-
-h1 {
-  font-family: "Bitcount Grid Double", system-ui, sans-serif;
 }
 
 .container {
@@ -49,9 +20,11 @@ h1 {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  gap: 25px;
 }
 
-.container h1 {
+.container h1,
+h1 {
   font-family: "Bitcount Grid Double", system-ui, sans-serif;
   font-size: 72px;
   font-weight: 700;
@@ -61,8 +34,7 @@ h1 {
   -webkit-text-fill-color: transparent;
   color: transparent;
   display: inline-block;
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 .container p,
@@ -72,7 +44,7 @@ h1 {
   font-size: 28px;
   font-weight: 700;
   line-height: 1.4;
-  margin-bottom: 40px;
+  margin: 0;
 }
 
 .buttons-wrapper {
@@ -108,7 +80,8 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  .container h1 {
+  .container h1,
+  h1 {
     font-size: 90px;
   }
 
