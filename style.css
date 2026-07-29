@@ -5,45 +5,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  background-color: #ffffff;
 }
 
 .container {
   width: 100%;
-  max-width: 800px;
-  margin: 0 auto;           
+  max-width: 900px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;   
-  align-items: center;       
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
 .container h1 {
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-  font-family: "Bitcount Grid Double", medium;
-  font-size: 72px;
-  font-weight: 350;
-}
-
-.container p {
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-  font-family: 'Inconsolata', monospace;
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 40px;
-  line-height: 1.4;
-  text-align: center;
-  
-}
-
-h1 {
-  font-family: "Bitcount Grid Double", system-ui;
+  font-family: "Bitcount Grid Double", system-ui, sans-serif;
   font-size: 72px;
   font-weight: 700;
   background: linear-gradient(180deg, #000000 0%, #0b192c 100%);
@@ -54,31 +30,25 @@ h1 {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 20px;
-  text-align: center;
 }
 
-h1::marker {
-  font-size: 0.4em;
-}
-
+.container p,
 .text {
   color: #000000;
   font-family: 'Inconsolata', monospace;
   font-size: 28px;
   font-weight: 700;
-  margin-bottom: 40px;
   line-height: 1.4;
-  text-align: center;
+  margin-bottom: 40px;
 }
 
-
 .buttons-wrapper {
- display: flex;
-  flex-wrap: wrap;     
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  width: 100%;            
-  margin-top: 20px;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .enter-btn {
@@ -104,12 +74,12 @@ h1::marker {
   transform: rotate(7deg);
 }
 
-
 @media (min-width: 768px) {
-  h1 {
+  .container h1 {
     font-size: 90px;
   }
-  
+
+  .container p,
   .text {
     font-size: 40px;
   }
