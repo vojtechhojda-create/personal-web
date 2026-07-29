@@ -29,7 +29,7 @@ body {
 h1 {
   font-family: "Bitcount Grid Double", system-ui, sans-serif;
   font-size: 72px;
-  font-weight: 700;
+  font-weight: 400;
   background: linear-gradient(180deg, #000000 0%, #0b192c 100%);
   -webkit-background-clip: text;
   background-clip: text;
