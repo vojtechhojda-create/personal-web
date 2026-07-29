@@ -15,7 +15,7 @@ body {
 
 h1 {
   font-family: 'Inconsolata', monospace;
-  font-size: 52px;
+  font-size: 64px;
   font-weight: 700;
   background: linear-gradient(180deg, #000000 0%, #0b192c 100%);
   -webkit-background-clip: text;
@@ -30,25 +30,25 @@ h1 {
 .text {
   color: #000000;
   font-family: 'Inconsolata', monospace;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   line-height: 1.4;
 }
 
 .enter-btn {
-  display: inline-block;
-  width: 180px;
-  padding: 12px 0;
+  display: block;
+  width: 200px;
+  margin: 12px auto;
+  padding: 14px 0;
   background-color: transparent;
   color: #0b192c;
   border: 2px solid #0b192c;
   text-decoration: none;
   font-family: 'Inconsolata', monospace;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 8px;
-  margin: 8px 0;
   text-align: center;
   transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
