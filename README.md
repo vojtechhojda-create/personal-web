@@ -14,7 +14,7 @@ this web have four "pages" :
 
 # how to open
 
-Its online at "https://vojtechhojda.netlify.app/"
+Its online at "https://vojtechhojda-create.github.io/personal-web/"
 
 # built With
 
