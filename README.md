@@ -1,25 +1,24 @@
-# personal web
+# Personal Website
 
-**this is my personal web i make for the chalange on stardance.space/**
+> Personal website created for the **stardance.space** challenge.
 
-this web have four pages :
-<br>
--main
-<br>
--projects
-<br>
--contact
-<br>
--about me
+---
 
-## how to open
+## 📌 Pages
+* **Main:** Welcome page and summary
+* **About Me:** Who I am and what I do
+* **Projects:** Showcase of my work
+* **Contact:** How to reach me
 
-Its online at **https://vojtechhojda-create.github.io/personal-web/**
+---
 
-## built With
+## 🚀 Live Demo
+Visit the website online at: [vojtechhojda-create.github.io/personal-web](https://vojtechhojda-create.github.io/personal-web/)
 
--HTML5
-<br>
--CSS
+---
 
-I don't know what to write here anymore.
+## 🛠️ Built With
+* **HTML5** – Structure
+* **CSS3** – Styling & Layout
+
+---
