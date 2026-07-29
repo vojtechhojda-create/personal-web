@@ -8,14 +8,14 @@ body {
 
 .container {
   width: 100%;
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
   text-align: center;
 }
 
 h1 {
   font-family: 'Inconsolata', monospace;
-  font-size: 64px;
+  font-size: 72px;
   font-weight: 700;
   background: linear-gradient(180deg, #000000 0%, #0b192c 100%);
   -webkit-background-clip: text;
@@ -24,30 +24,37 @@ h1 {
   color: transparent;
   display: inline-block;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .text {
   color: #000000;
   font-family: 'Inconsolata', monospace;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   line-height: 1.4;
 }
 
+/* Obal pro tlačítka - na mobilu pod sebou */
+.buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
 .enter-btn {
-  display: block;
-  width: 200px;
-  margin: 12px auto;
-  padding: 14px 0;
+  display: inline-block;
+  width: 220px;
+  padding: 16px 0;
   background-color: transparent;
   color: #0b192c;
   border: 2px solid #0b192c;
   text-decoration: none;
   font-family: 'Inconsolata', monospace;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 8px;
   text-align: center;
   transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
@@ -58,4 +65,20 @@ h1 {
   background-color: #0b192c;
   color: #ffffff;
   transform: rotate(7deg);
+}
+
+/* PC a tablety (od šířky 768px) - tlačítka vedle sebe */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 90px;
+  }
+  
+  .text {
+    font-size: 32px;
+  }
+
+  .buttons-wrapper {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
