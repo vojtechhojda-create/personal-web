@@ -70,11 +70,11 @@ h1 {
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 90px;
+    font-size: 120px;
   }
   
   .text {
-    font-size: 32px;
+    font-size: 50px;
   }
 
   .buttons-wrapper {
