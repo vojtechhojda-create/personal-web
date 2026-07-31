@@ -1,58 +1,100 @@
 body {
+  margin: 0;
+  padding: 40px 15px 20px 15px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center;     
-  min-height: 100vh;        
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: 'Inconsolata', monospace;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  background: linear-gradient(135deg, #0f0c29, #302b63, #404072);
-  color:azure;
 }
 
-h1{
-  font-family: "Bitcount Prop Double", system-ui;
-  font-optical-sizing: auto;
+.container h1,
+h1 {
+  font-family: "Bitcount Grid Double", system-ui, sans-serif;
+  font-size: 72px;
   font-weight: 400;
-  font-style: normal;
-  font-size: 7.5rem;
-  margin-bottom: 10px;
-  align-items: center;
-  justify-content: center;
-}
-
-p{
-  font-family: "Inconsolata", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-size: 2.1rem;
-  line-height: 1.6;
-  align-items: center;
-  justify-content: center;
-}
-
-.badge{
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-size: 2.2rem;
-}
-
-.open-btn{
-  font-family: "Inconsolata", monospace;
-  font-optical-sizing: auto;
-  font-weight: 475;
-  font-size: 2.2rem;
+  background: linear-gradient(180deg, #000000 0%, #0b192c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
   display: inline-block;
-  padding: 12px 24px;
-  margin: 10px;
-  background-color: transparent;
-  border: 2px solid azure;     
-  text-decoration: none;         
-  border-radius: 8px;            
-  font-weight: bold;
-  transition: all 0.3s ease;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
-.open-btn:hover {
-  background-color: azure; 
+.container p,
+.text {
+  color: #000000;
+  font-family: 'Inconsolata', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  margin-top: 0;
+}
+
+.enter-btn {
+  display: inline-block;
+  width: 220px;
+  padding: 16px 0;
+  background-color: transparent;
+  color: #0b192c;
+  border: 2px solid #0b192c;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.enter-btn:hover,
+.enter-btn:active {
+  background-color: #0b192c;
+  color: #ffffff;
+  transform: rotate(7deg);
+}
+
+@media (min-width: 768px) {
+  .container h1,
+  h1 {
+    font-size: 90px;
+  }
+
+  .container p,
+  .text {
+    font-size: 40px;
+  }
+
+  .buttons-wrapper {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
